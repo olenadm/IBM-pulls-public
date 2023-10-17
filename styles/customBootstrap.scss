@@ -1,0 +1,79 @@
+$light: #e4ebe4;
+$light-bg: #fff;
+$link-color: #108a00;
+
+$body-color: #494e6a;
+
+$headings-color: #001e00;
+$headings-font-weight: 500;
+$h1-font-size: 40px;
+$h5-font-size: 16px;
+
+$list-group-hover-bg: #f2f7f2;
+$list-group-border-color: #d5e0d5;
+$list-group-action-hover-color: #000;
+
+$list-group-action-active-color: #000;
+$list-group-action-active-bg: #e4ebe4; //#f2f7f2
+
+$popover-font-size: 12px;
+$popover-header-bg: #f7faf7;
+$popover-border-color: #d5e0d5;
+
+$badge-font-size: 12px;
+$badge-font-weight: 400;
+$badge-color: #5e6d55;
+
+header {
+  background: #f7faf7;
+  border-bottom: 1px solid #e4ebe4;
+}
+.small {
+  font-size: 0.775em;
+}
+.text-muted {
+  color: #5e6d55;
+}
+.badge {
+  background-color: $light;
+}
+.icon-sml {
+  width: 15px;
+  height: 15px;
+  color: $link-color;
+}
+
+a:link,
+a:visited {
+  color: $link-color;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h5 {
+  a:link,
+  a:visited {
+    color: #000;
+  }
+  a:hover {
+    color: $link-color;
+    font-weight: 600;
+  }
+}
+
+.popover-header {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (min-width: 300px) {
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
