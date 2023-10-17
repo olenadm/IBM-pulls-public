@@ -1,7 +1,7 @@
 import { Octokit } from "@octokit/core";
 
 const octokit = new Octokit({
-  auth: `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`,
+ 
 });
 
 export const OWNER = "facebook";
